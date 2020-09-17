@@ -59,7 +59,7 @@ You need to be on the `clr-support` branch.
 ```
 cd Assets
 git clone https://github.com/sogaiu/clojure-complete
-git branch clr-support
+git checkout clr-support
 git pull
 ```
 
