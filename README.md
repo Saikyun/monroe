@@ -53,22 +53,13 @@ In your [Emacs init file](https://www.gnu.org/software/emacs/manual/html_node/em
 
 Then either evaluate the rows or restart Emacs.
 
-Start an Arcadia project in Unity. In order for autocomplete to work, put this repo in your `Assets`-folder: https://github.com/sogaiu/clojure-complete
-You need to be on the `clr-support` branch.
-
-```
-# in your Unity project directory
-cd Assets
-git clone https://github.com/sogaiu/clojure-complete
-cd clojure-complete
-git checkout clr-support
-```
-
 Then, in Emacs:
 
 <kbd>M-x miracle [RET]</kbd>
 
 and follow the question about nREPL server location and port. The defaults are the same as Arcadia's defaults.
+
+To configure autocomplete, head on [down](https://github.com/Saikyun/miracle#for-autocompletion-use-the-following-thanks-sogaiu).
 
 ## Keys and shortcuts
 
@@ -116,6 +107,16 @@ Keys                | Description
 
 - company-mode -- https://company-mode.github.io/
 - clojure-complete (clr branch) -- https://github.com/sogaiu/clojure-complete/tree/clr-support
+
+Installation instructions for clojure-complete:
+
+```
+# in your Unity project directory
+cd Assets
+git clone https://github.com/sogaiu/clojure-complete
+cd clojure-complete
+git checkout clr-support
+```
 
 Put the following in your `init.el`.
 
