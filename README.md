@@ -53,7 +53,15 @@ In your [Emacs init file](https://www.gnu.org/software/emacs/manual/html_node/em
 
 Then either evaluate the rows or restart Emacs.
 
-Start an Arcadia project in Unity.
+Start an Arcadia project in Unity. In order for autocomplete to work, put this repo in your `Assets`-folder: https://github.com/sogaiu/clojure-complete
+You need to be on the `clr-support` branch.
+
+```
+cd Assets
+git clone https://github.com/sogaiu/clojure-complete
+git branch clr-support
+git pull
+```
 
 Then, in Emacs:
 
