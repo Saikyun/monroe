@@ -57,10 +57,11 @@ Start an Arcadia project in Unity. In order for autocomplete to work, put this r
 You need to be on the `clr-support` branch.
 
 ```
+# in your Unity project directory
 cd Assets
 git clone https://github.com/sogaiu/clojure-complete
+cd clojure-complete
 git checkout clr-support
-git pull
 ```
 
 Then, in Emacs:
